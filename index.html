@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Qasryna Kamarudin</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="layout">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="sidebar-header">
+          <a href="#graphic-design" class="logo" data-page="graphic-design"
+            ><img
+              src="assets/website_logo/cursivealt.PNG"
+              width="160px"
+              alt="Qasryna Kamarudin Logo"
+          /></a>
+
+          <!-- Mobile-only menu toggle — hidden on desktop via CSS -->
+          <button
+            type="button"
+            class="nav-burger"
+            data-role="nav-burger"
+            aria-label="Toggle menu"
+            aria-expanded="false"
+            aria-controls="site-nav"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+
+        <nav class="nav" id="site-nav" data-role="nav">
+          <ul class="nav-list">
+            <li class="nav-item nav-category" data-category="graphic-design">
+              <a
+                href="#graphic-design"
+                class="nav-link"
+                data-page="graphic-design"
+                data-category-toggle="graphic-design"
+                aria-expanded="false"
+              >
+                Graphic Design
+              </a>
+              <!-- Sub-links are generated from the `projects` array in js/projects.js -->
+              <ul class="nav-sublist"></ul>
+            </li>
+
+            <li class="nav-item nav-category" data-category="motion">
+              <a
+                href="#motion"
+                class="nav-link"
+                data-page="motion"
+                data-category-toggle="motion"
+                aria-expanded="false"
+              >
+                Motion
+              </a>
+              <!-- Sub-links are generated from the `projects` array in js/projects.js -->
+              <ul class="nav-sublist"></ul>
+            </li>
+
+            <li class="nav-item">
+              <a href="#about" class="nav-link" data-page="about">About</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- <ul class="social-list">
+        <li><a href="https://www.behance.net/" target="_blank" rel="noopener" aria-label="Behance">Be</a></li>
+        <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a></li>
+        <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">Ig</a></li>
+        <li><a href="https://vimeo.com/" target="_blank" rel="noopener" aria-label="Vimeo">Vi</a></li>
+        <li><a href="mailto:hello@example.com" aria-label="Email">@</a></li>
+      </ul> -->
+      </aside>
+
+      <!-- Main content -->
+      <main class="content">
+        <!-- ABOUT -->
+        <section id="about" class="page" data-page-id="about" hidden>
+          <h1 class="page-title">About</h1>
+          <div class="about-body">
+            <figure class="about-photo">
+              <img
+                src="assets/images/aboutmeqas.jpg"
+                alt="Portrait of Qasryna Kamarudin"
+              />
+            </figure>
+            <div class="about-text">
+              <p>
+                Qasryna Kamarudin is a highly creative and multi-talented
+                graphic designer currently based in Malaysia.
+              </p>
+              <p>
+                A novice illustrator and animator, she loves creating
+                imaginative, expressive and playful designs. Being an extremely
+                detailed and organized person, most of her previous work
+                displays a great amount of minimalism and modernity with a clean
+                look and feel.
+              </p>
+              <p>
+                However, Qasryna is constantly looking to push boundaries and go
+                further with her designs and creations, without losing
+                legibility, memorability, versatility and, of course,
+                professionalism.
+              </p>
+              <p class="contact-line">
+                To contact Qasryna, please click
+                <a href="mailto:hello@example.com">here</a>.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- GRAPHIC DESIGN (landing page) -->
+        <section id="graphic-design" class="page" data-page-id="graphic-design">
+          <h1 class="page-title">Graphic Design</h1>
+          <!-- Grid items are generated from the `projects` array in js/projects.js -->
+          <div class="grid grid--landing"></div>
+          <a href="#top" class="back-to-top" data-role="back-to-top"
+            >&uarr; Back to Top</a
+          >
+        </section>
+
+        <!-- MOTION -->
+        <section id="motion" class="page" data-page-id="motion" hidden>
+          <h1 class="page-title">Motion</h1>
+          <!-- Grid items are generated from the `projects` array in js/projects.js -->
+          <div class="grid grid--landing"></div>
+          <a href="#top" class="back-to-top" data-role="back-to-top"
+            >&uarr; Back to Top</a
+          >
+        </section>
+
+        <!-- PROJECT (single template, filled in by JS) -->
+        <section id="project" class="page" data-page-id="project" hidden>
+          <h1 class="page-title" data-role="project-title">Project</h1>
+          <div class="project-body" data-role="project-body">
+            <p>Project details go here.</p>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <!-- MEDIA LIGHTBOX (single shared dialog, filled in by JS on click) -->
+    <dialog class="media-lightbox" data-role="media-lightbox">
+      <button
+        type="button"
+        class="media-lightbox-close"
+        data-role="media-lightbox-close"
+        aria-label="Close"
+      >
+        &times;
+      </button>
+      <div
+        class="media-lightbox-content"
+        data-role="media-lightbox-content"
+      ></div>
+    </dialog>
+
+    <script src="js/projects.js"></script>
+    <script src="js/case-studies.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

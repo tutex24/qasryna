@@ -1,0 +1,7 @@
+qas portfolio/
+
+# Original uncompressed masters (300MB+/140MB+) — over GitHub's 100MB push
+# limit. The site uses the "-web" compressed copies sitting next to these;
+# these full-res originals are kept locally only.
+assets/images/projects/motion/Company Yearly Recaps/Pocket_demo_2024/Animation _ Pocket Demo Final.mp4
+assets/images/projects/motion/Company Yearly Recaps/Retargeting_Ad_2025/Animation _ Retargeting Ad Final Version.mp4

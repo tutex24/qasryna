@@ -1,0 +1,735 @@
+/* ---------- Reset ---------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+figure {
+  margin: 0;
+}
+
+/* ---------- Fonts ---------- */
+@font-face {
+  font-family: "Sk Modernist";
+  src: url("../assets/fonts/Sk-Modernist-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ---------- Base ---------- */
+:root {
+  --color-bg: #ffffff;
+  --color-text: #1a1a1a;
+  --color-text-muted: #8a8a8a;
+  --color-border: #e6e6e6;
+  --color-accent: #1a1a1a;
+  --sidebar-width: 300px;
+  --font-base: "Geist", "Helvetica Neue", Arial, sans-serif;
+  --font-heading: "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+  font-family: var(--font-base);
+  color: var(--color-text);
+  background: var(--color-bg);
+  line-height: 1.6;
+  font-size: 15px;
+  cursor: default;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* ---------- Layout ---------- */
+.layout {
+  display: flex;
+  min-height: 100vh;
+  /* Scales smoothly with viewport width instead of a fixed 100px, which
+     ate a quarter of the screen on phones. */
+  padding-left: clamp(24px, 6vw, 100px);
+}
+
+/* ---------- Sidebar ---------- */
+.sidebar {
+  width: var(--sidebar-width);
+  flex-shrink: 0;
+  padding: 48px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo {
+  font-family: "Geist";
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+/* Mobile menu toggle — hidden on desktop, shown + wired to a fullscreen
+   overlay only inside the responsive tier below. */
+.nav-burger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 6px;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  flex-shrink: 0;
+  z-index: 101;
+}
+
+.nav-burger span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: var(--color-text);
+  transition:
+    transform 0.25s ease,
+    opacity 0.25s ease,
+    width 0.25s ease;
+}
+
+.nav-burger span:nth-child(2) {
+  width: 70%;
+}
+
+.nav-burger.is-active span {
+  width: 100%;
+}
+
+.nav-burger.is-active span:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.nav-burger.is-active span:nth-child(2) {
+  opacity: 0;
+}
+
+.nav-burger.is-active span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.nav-link {
+  display: block;
+  width: 100%;
+  padding: 6px 0;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: var(--color-text-muted);
+  background: none;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  color: var(--color-accent);
+}
+
+.nav-link.is-active {
+  color: var(--color-text);
+}
+
+.nav-sublist {
+  display: none;
+  flex-direction: column;
+}
+
+.nav-category.is-active-section .nav-sublist {
+  display: flex;
+}
+
+.nav-sublink {
+  padding: 4px 0;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: normal;
+  color: var(--color-text-muted);
+}
+
+.nav-sublink:hover,
+.nav-sublink.is-active {
+  color: var(--color-text);
+}
+
+.social-list {
+  display: flex;
+  gap: 18px;
+  margin-top: auto;
+}
+
+.social-list a {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-text-muted);
+}
+
+.social-list a:hover {
+  color: var(--color-text);
+}
+
+/* ---------- Content ---------- */
+.content {
+  flex: 1;
+  padding: 56px 64px;
+  min-width: 0;
+}
+
+.page-title {
+  font-family: var(--font-heading);
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 0 12px;
+  /* text-decoration: underline; */
+}
+
+/* ---------- About ---------- */
+.about-body {
+  display: flex;
+  gap: 64px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.about-photo {
+  width: 380px;
+  flex-shrink: 0;
+  margin: 0;
+  background: #f2f0f5;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+}
+
+.about-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 260px;
+  max-width: 540px;
+  padding-top: 8px;
+}
+
+.about-text p {
+  margin: 0 0 20px;
+  color: var(--color-text);
+}
+
+.contact-line {
+  margin-top: 36px;
+  font-weight: 600;
+}
+
+.contact-line a {
+  text-decoration: underline;
+  font-weight: 400;
+}
+
+/* ---------- Grid (Graphic Design / Motion) ---------- */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.grid--landing {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.grid-item {
+  display: block;
+  cursor: pointer;
+  text-align: left;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+}
+
+.grid-item img,
+.grid-item video {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background: #f2f0f5;
+  filter: brightness(1);
+  transition: filter 0.3s ease;
+}
+
+.grid-item:hover img,
+.grid-item:hover video {
+  filter: brightness(0.22);
+}
+
+.grid-item-label {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.grid-item:hover .grid-item-label {
+  opacity: 1;
+}
+
+.grid--landing .grid-item img,
+.grid--landing .grid-item video {
+  aspect-ratio: 1 / 1;
+}
+
+.back-to-top {
+  display: block;
+  text-align: center;
+  margin-top: 48px;
+  font-size: 13px;
+  color: var(--color-text-muted);
+}
+
+.back-to-top:hover {
+  color: var(--color-text);
+}
+
+/* ---------- Project detail ---------- */
+.project-body {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.project-body > p {
+  max-width: 720px;
+  margin: 0 auto 20px;
+}
+
+/* ---------- Project case study ---------- */
+.case-text {
+  max-width: 720px;
+  margin: 0 auto 32px;
+  text-align: center;
+}
+
+.case-text--note {
+  max-width: 620px;
+  margin-top: -8px;
+  font-size: 12px;
+  font-style: italic;
+  color: var(--color-text-muted);
+}
+
+.case-heading {
+  font-family: "Geist";
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--color-text-muted);
+  /* margin: 72px 0 32px; */
+  margin-top: 72px;
+}
+
+.case-image {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.case-image img {
+  width: 100%;
+  border-radius: 2px;
+}
+
+.case-video {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  border-radius: 6px;
+}
+
+.case-video video {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.case-embed {
+  margin: 20px 0;
+}
+
+.case-embed iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: none;
+  border-radius: 2px;
+}
+
+/* A masonry column layout — every tile keeps its own native aspect ratio
+   (no cropping), and the resulting varied heights create a clean,
+   staggered mosaic instead of a flat uniform grid. Works for any mix of
+   <img>/<video>, in any order or count — nothing here depends on how
+   many items there are. */
+.case-masonry {
+  column-count: 2;
+  column-gap: 12px;
+  margin: 20px 0;
+}
+
+.case-masonry video,
+.case-masonry img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  break-inside: avoid;
+}
+
+.is-zoomable {
+  cursor: zoom-in;
+}
+
+.case-image--sm img {
+  max-width: 420px;
+  border-radius: 0;
+}
+
+.case-image--md img {
+  max-width: 640px;
+}
+
+.case-image-group {
+  margin: 0 0 40px;
+}
+
+.case-image-group-row {
+  display: flex;
+  gap: 16px;
+}
+
+.case-image-group-row img {
+  flex: 1;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.case-image-group figcaption {
+  margin-top: 12px;
+  text-align: center;
+  font-size: 13px;
+  color: var(--color-text-muted);
+}
+
+/* A row of 2-3 heading+image pairs side by side (e.g. flavor/color
+   variants shown together instead of stacked full-width). */
+.case-trio {
+  display: flex;
+  gap: 0px;
+  margin: 56px 0 20px;
+}
+
+.case-trio-item {
+  flex: 1;
+  min-width: 0;
+}
+
+.case-trio-item .case-heading {
+  margin-top: 0;
+}
+
+.case-trio-item .case-image {
+  margin: 12px 0 0;
+}
+
+.case-gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.case-gallery img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+/* ---------- Responsive ---------- */
+/* Tablet / iPad (portrait iPads land here; landscape ones are wide enough
+   to keep the desktop sidebar layout, just with the fluid padding above). */
+@media (max-width: 900px) {
+  .layout {
+    flex-direction: column;
+    /* The fluid padding above is only for the desktop fixed-sidebar
+       layout. On mobile .sidebar-header is position:fixed (viewport-
+       relative, skips this entirely) while .content stays in normal
+       flow — leaving this set would shift .content right without
+       moving the header, breaking the left/right alignment. */
+    padding-left: 0;
+  }
+
+  .sidebar {
+    width: 100%;
+    padding: 0;
+    gap: 0;
+    position: static;
+    height: auto;
+    overflow-y: visible;
+  }
+
+  /* Logo + burger become a fixed bar pinned to the top of the viewport,
+     so the burger stays reachable (and tappable to close) even once the
+     fullscreen nav below is open and covering everything underneath. */
+  .sidebar-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 24px;
+    background: var(--color-bg);
+    z-index: 101;
+  }
+
+  .nav-burger {
+    display: flex;
+  }
+
+  /* Fullscreen overlay menu — hidden until .nav-burger toggles .is-open
+     (see js/app.js), then fades/slides in like a Tom Sachs-style burger
+     menu: bold, centered, full-bleed. */
+  .nav {
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 24px 40px;
+    overflow-y: auto;
+    background: var(--color-bg);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-16px);
+    transition:
+      opacity 0.3s ease,
+      transform 0.3s ease,
+      visibility 0s linear 0.3s;
+  }
+
+  .nav.is-open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition:
+      opacity 0.3s ease,
+      transform 0.3s ease,
+      visibility 0s linear 0s;
+  }
+
+  .nav-list {
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .nav-link {
+    padding: 6px 0;
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .nav-sublist {
+    align-items: center;
+  }
+
+  .nav-sublink {
+    padding: 8px 0;
+    font-size: 16px;
+  }
+
+  .content {
+    padding: 120px 24px 40px;
+  }
+
+  .page-title {
+    font-size: 32px;
+    text-align: left;
+  }
+
+  .case-trio {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .about-body {
+    gap: 32px;
+  }
+
+  .about-photo {
+    width: 100%;
+    max-width: 380px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Phone — narrower than any iPad, so this is where things actually need
+   to stack instead of sit side by side. */
+@media (max-width: 640px) {
+  .content {
+    padding: 100px 20px 32px;
+  }
+
+  .sidebar-header {
+    padding: 16px 20px;
+  }
+
+  .case-heading {
+    margin-top: 48px;
+  }
+
+  .case-masonry {
+    column-count: 1;
+  }
+
+  .case-image-group-row {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-title {
+    font-size: 26px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---------- Media lightbox (click a case-study image/video to enlarge) ---------- */
+.media-lightbox {
+  border: none;
+  border-radius: 8px;
+  padding: 0;
+  max-width: min(92vw, 1100px);
+  max-height: 90vh;
+  background: var(--color-bg);
+  opacity: 0;
+  transform: scale(0.92);
+  transition:
+    opacity 0.22s ease,
+    transform 0.22s ease;
+}
+
+/* Toggled by JS one frame after showModal() (open) / removed before the
+   delayed close() call (close), so the dialog always animates between
+   these two states instead of snapping open/closed. */
+.media-lightbox.is-visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.media-lightbox::backdrop {
+  background: rgba(0, 0, 0, 0);
+  transition: background-color 0.22s ease;
+}
+
+.media-lightbox.is-visible::backdrop {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.media-lightbox-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.media-lightbox-content img,
+.media-lightbox-content video {
+  max-width: min(92vw, 1100px);
+  max-height: 90vh;
+  display: block;
+}
+
+.media-lightbox-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+  z-index: 1;
+}

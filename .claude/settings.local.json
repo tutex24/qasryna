@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"from PIL import Image; print\\('ok'\\)\")",
+      "Bash(python -c \"from PIL import Image; print\\('ok'\\)\")",
+      "Bash(python3 *)",
+      "Bash(node -e \"console.log\\(\\\\`assets/images/projects/graphic-design/qatar-airways/SPREAD-01-\\\\\\\\\\\\`.png\\\\`\\)\")",
+      "Bash(node -e ' *)",
+      "Bash(pkill -f \"http.server 8791\")",
+      "Bash(pkill -f \"carousel_test\")",
+      "Bash(find assets/images/projects/motion -iname \"*respondio-platform*\" -o -iname \"*respondio*platform*\")",
+      "Bash(find assets/images/projects -iname \"*respondio*\")",
+      "Bash(cd /tmp)",
+      "Bash(sed -i '1s/^\\\\xEF\\\\xBB\\\\xBF//' actual_files.txt)",
+      "Bash(grep -v '<category>' referenced_paths.txt)",
+      "Bash(sort -u actual_files.txt -o actual_files_sorted.txt)",
+      "Bash(/c/Users/alikh/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-9.0.1-full_build/bin/ffmpeg.exe -i 'assets/images/projects/motion/Company Yearly Recaps/Retargeting_Ad_2025/Animation _ Retargeting Ad Final Version.mp4' -hide_banner)",
+      "Bash('/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe' --headless --disable-gpu --incognito --disk-cache-dir=/dev/null '--user-data-dir=C:\\\\Users\\\\alikh\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-alikh-Desktop-project-qasrynagithub\\\\aff55b99-4da9-4eec-a85d-87498172e954\\\\scratchpad/edge-profile-fresh' --window-size=390,900 '--screenshot=C:\\\\Users\\\\alikh\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-alikh-Desktop-project-qasrynagithub\\\\aff55b99-4da9-4eec-a85d-87498172e954\\\\scratchpad/phone-recheck.png' http://localhost:8791/index.html?nocache=2)",
+      "Bash('/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe' --headless --disable-gpu --force-device-scale-factor=1 --hide-scrollbars --window-size=390,300 '--screenshot=C:\\\\Users\\\\alikh\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-alikh-Desktop-project-qasrynagithub\\\\aff55b99-4da9-4eec-a85d-87498172e954\\\\scratchpad/debug-out2.png' 'file:///C:\\\\Users\\\\alikh\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-alikh-Desktop-project-qasrynagithub\\\\aff55b99-4da9-4eec-a85d-87498172e954\\\\scratchpad/debug.html')",
+      "WebFetch(domain:www.tomsachs.com)"
+    ]
+  }
+}
