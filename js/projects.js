@@ -83,13 +83,13 @@ var projects = [
     alt: "Geisel After Dark — event poster illustration",
     description: "Details about the Geisel After Dark project go here.",
   },
-  {
-    name: "Yogurt Square",
-    category: "graphic-design",
-    thumb: "assets/images/projects/graphic-design/yogurt-square/thumb.png",
-    alt: "Yogurt Square — frozen yogurt branding",
-    description: "Details about the Yogurt Square project go here.",
-  },
+  // {
+  //   name: "Yogurt Square",
+  //   category: "graphic-design",
+  //   thumb: "assets/images/projects/graphic-design/yogurt-square/thumb.png",
+  //   alt: "Yogurt Square — frozen yogurt branding",
+  //   description: "Details about the Yogurt Square project go here.",
+  // },
   {
     name: "Respond.io Yearly Recaps",
     category: "motion",
@@ -127,11 +127,11 @@ var projects = [
     description: "A collection of digital illustrations and short animations.",
   },
 
-  {
-    name: "Auguries of Innocence",
-    category: "motion",
-    thumb: "assets/images/projects/motion/Auguries of innocence/aoi.gif",
-    alt: "Auguries of Innocence — animation reel",
-    description: "Details about the Auguries of Innocence project go here.",
-  },
+  // {
+  //   name: "Auguries of Innocence",
+  //   category: "motion",
+  //   thumb: "assets/images/projects/motion/Auguries of innocence/aoi.gif",
+  //   alt: "Auguries of Innocence — animation reel",
+  //   description: "Details about the Auguries of Innocence project go here.",
+  // },
 ];

@@ -19,7 +19,7 @@
       <!-- Sidebar -->
       <aside class="sidebar">
         <div class="sidebar-header">
-          <a href="#graphic-design" class="logo" data-page="graphic-design"
+          <a href="#motion" class="logo" data-page="motion"
             ><img
               src="assets/website_logo/cursivealt.PNG"
               width="160px"
@@ -43,20 +43,6 @@
 
         <nav class="nav" id="site-nav" data-role="nav">
           <ul class="nav-list">
-            <li class="nav-item nav-category" data-category="graphic-design">
-              <a
-                href="#graphic-design"
-                class="nav-link"
-                data-page="graphic-design"
-                data-category-toggle="graphic-design"
-                aria-expanded="false"
-              >
-                Graphic Design
-              </a>
-              <!-- Sub-links are generated from the `projects` array in js/projects.js -->
-              <ul class="nav-sublist"></ul>
-            </li>
-
             <li class="nav-item nav-category" data-category="motion">
               <a
                 href="#motion"
@@ -66,6 +52,19 @@
                 aria-expanded="false"
               >
                 Motion
+              </a>
+              <!-- Sub-links are generated from the `projects` array in js/projects.js -->
+              <ul class="nav-sublist"></ul>
+            </li>
+            <li class="nav-item nav-category" data-category="graphic-design">
+              <a
+                href="#graphic-design"
+                class="nav-link"
+                data-page="graphic-design"
+                data-category-toggle="graphic-design"
+                aria-expanded="false"
+              >
+                Graphic Design
               </a>
               <!-- Sub-links are generated from the `projects` array in js/projects.js -->
               <ul class="nav-sublist"></ul>
@@ -154,7 +153,12 @@
         </section>
 
         <!-- GRAPHIC DESIGN (landing page) -->
-        <section id="graphic-design" class="page" data-page-id="graphic-design">
+        <section
+          id="graphic-design"
+          class="page"
+          data-page-id="graphic-design"
+          hidden
+        >
           <h1 class="page-title">Graphic Design</h1>
           <!-- Grid items are generated from the `projects` array in js/projects.js -->
           <div class="grid grid--landing"></div>
@@ -164,7 +168,7 @@
         </section>
 
         <!-- MOTION -->
-        <section id="motion" class="page" data-page-id="motion" hidden>
+        <section id="motion" class="page" data-page-id="motion">
           <h1 class="page-title">Motion</h1>
           <!-- Grid items are generated from the `projects` array in js/projects.js -->
           <div class="grid grid--landing"></div>

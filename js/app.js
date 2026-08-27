@@ -265,13 +265,13 @@
   }
 
   function route() {
-    var hash = window.location.hash.replace("#", "") || "graphic-design";
+    var hash = window.location.hash.replace("#", "") || "motion";
     var validPages = ["about", "graphic-design", "motion"];
 
     if (validPages.indexOf(hash) !== -1) {
       showPage(hash);
     } else {
-      showPage("graphic-design");
+      showPage("motion");
     }
   }
 
@@ -283,8 +283,7 @@
         return;
       }
 
-      var currentHash =
-        window.location.hash.replace("#", "") || "graphic-design";
+      var currentHash = window.location.hash.replace("#", "") || "motion";
 
       if (link.dataset.page === currentHash) {
         // Same page as we're already on — the hash won't change, so
