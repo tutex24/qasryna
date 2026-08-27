@@ -111,9 +111,6 @@
   var lightboxContent = document.querySelector(
     '[data-role="media-lightbox-content"]',
   );
-  var lightboxCloseBtn = document.querySelector(
-    '[data-role="media-lightbox-close"]',
-  );
 
   // Closing fades/scales the dialog out via the .is-visible transition
   // first, then calls the real close() once that transition finishes —
@@ -165,19 +162,26 @@
   }
 
   function wireLightboxTriggers(root) {
-    root.querySelectorAll(".case-masonry video, .case-masonry img").forEach(
-      function (media) {
+    root
+      .querySelectorAll(
+        [
+          ".case-masonry video",
+          ".case-masonry img",
+          ".case-image img",
+          ".case-image-group-row img",
+          ".case-gallery img",
+          ".case-video video",
+        ].join(", "),
+      )
+      .forEach(function (media) {
         media.classList.add("is-zoomable");
         media.addEventListener("click", function () {
           openLightbox(media);
         });
-      },
-    );
+      });
   }
 
   if (lightbox) {
-    lightboxCloseBtn.addEventListener("click", closeLightbox);
-
     // Click on the backdrop (outside the dialog's own box) closes it too.
     lightbox.addEventListener("click", function (event) {
       var rect = lightbox.getBoundingClientRect();

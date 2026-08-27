@@ -76,32 +76,27 @@
 var caseStudies = {
   Kumo: `
     <p class="case-text">
-KUMO, Japanese for “cloud”, is a natural soap brand concept focused on sustainability, simplicity and plant-based ingredients. Designed for a packaging course, the brand uses hemp paper, organic linework and minimal forms to reflect the brand’s handmade, biodegradable and zero-waste values.    </p>
+      KUMO, Japanese for “cloud”, is a natural soap brand concept focused on sustainability, simplicity and plant-based ingredients. Designed for a packaging course, the brand uses hemp paper, organic linework and minimal forms to reflect the brand’s handmade, biodegradable and zero-waste values.
+
+
+<br><br>Photography and color are revealed inside the packaging as a subtle element of surprise, contrasting the understated exterior and reinforcing KUMO’s clean, thoughtful approach to natural skincare.</p>
+
+    <h2 class="case-heading">Brand Logo</h2>
 
     <div class="case-image case-image--sm">
       <img src="assets/images/projects/graphic-design/kumo/Logo.png" alt="Kumo logotype" />
     </div>
 
-    <p class="case-text">
-      KUMO is an organic, 100% natural and 100% biodegradable company. Made with only pure, raw materials, we take pride in our cruelty free, handmade and vegan products. We believe in creating more than just fun, functional and gorgeous products for the body. We believe in making a difference in the world with the choices we make as a brand.
-    </p>
+    <h2 class="case-heading">Brand Icons</h2>
+
 
     <div class="case-image case-image--md">
       <img src="assets/images/projects/graphic-design/kumo/Untitled-3-01.png" alt="100% eco friendly, 100% natural, vegan, cruelty free, handmade" />
     </div>
 
-    <p class="case-text">
-      At KUMO, we cooperate with local growers to supply us with outstanding and pure materials to add into our products. We choose ingredients of the highest quality and those which ensures the traceability and the nominal origin of our products. We believe in making effective products from fresh organic fruits and vegetables and the finest essential oils.
-    </p>
+   
 
-    <h2 class="case-heading">Inspiration and Ideas</h2>
-    <figure class="case-image-group">
-      <div class="case-image-group-row">
-        <img src="assets/images/projects/graphic-design/kumo/Ref/IDEAS-01.png" alt="Packaging inspiration moodboard — box" />
-        <img src="assets/images/projects/graphic-design/kumo/Ref/IDEAS-02.png" alt="Packaging inspiration moodboard — bottle" />
-        <img src="assets/images/projects/graphic-design/kumo/Ref/IDEAS-03.png" alt="Packaging inspiration moodboard — bag" />
-      </div>
-    </figure>
+    
 
     <h2 class="case-heading">Dielines</h2>
 
@@ -164,8 +159,7 @@ KUMO, Japanese for “cloud”, is a natural soap brand concept focused on susta
 
   Surge: `
     <p class="case-text">
-      SURGE, created in a packaging design course, is an energy drink sub branded for the Gatorade company, that focuses on having a clean list of ingredients while providing the same benefits of other energy drinks. After thorough research of competing brands and some consumer profiling, an early design was made, followed by a refined design and a final design. In accordance to the given stimulus image, the name SURGE was formed to symbolize a "surge of power or energy." The concept board also shows the use of bold colors and abstract works. Sticking to the ideas on the concept board, organic lines and vivid colors were used in the final design to symbolize energy waves, in relation to its name, and to enhance the aesthetic appeal of the packaging to the targeted consumers. The polished look and feel of the packaging also symbolizes the idea of a fully clean energy drink.
-    </p>
+SURGE is an energy drink concept developed as a Gatorade sub-brand, focused on clean ingredients and high-energy performance. Inspired by the idea of a “surge of power,” the name SURGE was formed. Packaging uses vivid colors, organic lines and abstract forms to convey movement and energy in relation to its name. The polished look and feel of the packaging signifies the idea of a fully clean energy drink.    </p>
 
     <p class="case-text case-text--note">
       *not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Gatorade Company, or any of its subsidiaries or affiliates.
@@ -177,31 +171,23 @@ KUMO, Japanese for “cloud”, is a natural soap brand concept focused on susta
     </div>
     
     <h2 class="case-heading">Final Design</h2>
-    <div class="case-image">
+    <div class="case-image case-image--md">
       <img src="assets/images/projects/graphic-design/surge/THREEPOWER-01-Current View.png" alt="Surge — Blueberry Lemon, Grape Lime, and Blood Orange cans" />
     </div>
 
-    
-
     <h2 class="case-heading">Flat Design</h2>
 
-    <figure class="case-image-group">
-      <div class="case-image-group-row">
-        <img src="assets/images/projects/graphic-design/surge/BLGRAPELIME-m-Current View.png" alt="Surge Grape Lime can — flat design, front/side/back" />
-      </div>
-    </figure>
+    <div class="case-image case-image--md">
+      <img src="assets/images/projects/graphic-design/surge/BLGRAPELIME-m-Current View.png" alt="Surge Grape Lime can — flat design, front/side/back" />
+    </div>
 
-    <figure class="case-image-group">
-      <div class="case-image-group-row">
-        <img src="assets/images/projects/graphic-design/surge/BLUELEMON-Current View.png" alt="Surge Blueberry Lemon can — flat design, front/side/back" />
-      </div>
-    </figure>
+    <div class="case-image case-image--md">
+      <img src="assets/images/projects/graphic-design/surge/BLUELEMON-Current View.png" alt="Surge Blueberry Lemon can — flat design, front/side/back" />
+    </div>
 
-    <figure class="case-image-group">
-      <div class="case-image-group-row">
-        <img src="assets/images/projects/graphic-design/surge/BLOODORANGE-Current View.png" alt="Surge Blood Orange can — flat design, front/side/back" />
-      </div>
-    </figure>
+    <div class="case-image case-image--md">
+      <img src="assets/images/projects/graphic-design/surge/BLOODORANGE-Current View.png" alt="Surge Blood Orange can — flat design, front/side/back" />
+    </div>
 
     <div class="case-gallery">
       <img src="assets/images/projects/graphic-design/surge/TABLETOP-01-Current View.png" alt="Surge cans tabletop photography" />
@@ -223,7 +209,7 @@ KUMO, Japanese for “cloud”, is a natural soap brand concept focused on susta
       <img src="assets/images/projects/graphic-design/orbit-gum/logo-01.jpg" alt="Orbit Gum — Seymour Chwast Edition logo" />
     </div>
 
-    <h2 class="case-heading">Inspiration/Mood Board</h2>
+    <h2 class="case-heading">Inspiration / Mood Board</h2>
     <div class="case-image">
       <img src="assets/images/projects/graphic-design/orbit-gum/moodboards/Seymour Chwast2.jpg" alt="Seymour Chwast and work samples inspiration moodboard" />
     </div>
@@ -278,29 +264,22 @@ KUMO, Japanese for “cloud”, is a natural soap brand concept focused on susta
 
   "Qatar Airways": `
     <p class="case-text">
-      For a visual identity and narrative course, the goal was to reinvent the visual identity of any major company. Qatar Airways was selected. Therefore, their logo was contemporized and simplified, to create a more steady and versatile branding, while maintaining the originality of their identity. Through careful treatment, the introduction of the rebrand is presented in a brand identity guideline manual that echoes the new look.
-    </p>
+A Qatar Airways rebrand concept created for a visual identity course, focused on simplifying and modernizing the airline’s existing identity while preserving its heritage.    </p>
+
+    
+    
+
+    <p class="case-text">
+Since Qatar holds the largest collection of Islamic Art in the world, the Square Kufic concept was taken as a major inspiration in the reinvention of the company's identity. The Square Kufic concept is known to focus on patterns through script. It is meant to be clever, creative and innovative, much like the airline itself.     </p>
+
+    <p class="case-text">
+The new logo forms the word “Qatar” in Arabic through a geometric, versatile mark. Paired with Gill Sans and a refined Qatar Red (used in honour of the Qatari flag) and Slate Grey palette, the identity was developed into a complete brand guidelines system.    </p>
+
+    
 
     <p class="case-text case-text--note">
       *not affiliated, associated, authorized, endorsed by, or in any way officially connected to the Qatar Airways Company or any of its subsidiaries or affiliates.
     </p>
-
-    <div class="case-image case-image--md">
-      <img src="assets/images/projects/graphic-design/qatar-airways/LOGO/LOGO.png" alt="Qatar Airways rebrand logotype" />
-    </div>
-
-    <p class="case-text">
-      Since Qatar holds the largest collection of Islamic Art in the world, the Square Kufic concept was taken as a major inspiration in the reinvention of the company's identity. The graphic of the logo spells out 'Qatar' in arabic text. Like all square kufic art, the design is minimal and modern making it a versatile icon that can be seen and used in all sizes. As understood, the square kufic style is not too concerned with legibility but rather the pattern and the underlying message, and can only be limited by one's creativity. It is meant to be clever, creative and innovative, much like the airline itself.
-    </p>
-
-    <p class="case-text">
-      The typeface used is <strong>Gill Sans</strong>, a sans serif typeface chosen for its classic simplicity and legibility. Gill Sans semibold is used for the word 'Qatar' and Gill Sans Regular for the word 'Airways.' A considerable difference in size is applied to establish a sense of hierarchy, especially when logo is to be applied in black and white.
-    </p>
-
-    <p class="case-text">
-      Without taking too much away from their current branding, the colors chosen are similar to their previous logo which are <strong>Qatar Red</strong> and <strong>Slate Grey</strong>. The Qatar Red is used in honor of the Qatari flag, while the Slate Grey gives a light and airy feel that is appropriate for an airline and is used to further establish a sense of hierarchy in the logo when it is to be applied in color.
-    </p>
-
     <h2 class="case-heading">Stationery</h2>
     <div class="case-image">
       <img src="assets/images/projects/graphic-design/qatar-airways/CARD-BOTH.png" alt="Qatar Airways business cards" />
@@ -337,6 +316,11 @@ KUMO, Japanese for “cloud”, is a natural soap brand concept focused on susta
     </div>
 
     <h2 class="case-heading">Visual Identity</h2>
+
+    <p class="case-text">
+Through careful treatment, the introduction of the rebrand is presented in a brand identity guideline manual that echoes the new look. 
+</p>
+
     <div class="case-image">
       <img src="assets/images/projects/graphic-design/qatar-airways/COVER.png" alt="Qatar Airways brand identity guideline cover" />
     </div>
@@ -359,16 +343,15 @@ KUMO, Japanese for “cloud”, is a natural soap brand concept focused on susta
 
   "Qatar Airways x MIA": `
     <p class="case-text">
-      A continuation of the reinvention of the Qatar Airways' logo, an event was created and one of the major inspirations of the rebrand of the company, the Museum of Islamic Art in Doha, Qatar. A media presentation was created and designed along with posters, standees, and name badges to be used as advertising and marketing for the launching and during the event. The collaterals designed were inspired by the clean, minimal and geometrical look the new Qatar Airways logo offers.
-    </p>
+As part of the Qatar Airways rebrand concept, a launch event was developed around the Museum of Islamic Art in Doha, one of the project’s key visual inspirations. The event identity included a media presentation, posters, standees and name badges. The collaterals were all designed to reflect the clean, minimal and geometric direction of the new logo.    </p>
+
+ <p class="case-text case-text--note">
+*not affiliated, associated, authorized, endorsed by, or in any way officially connected to the Qatar Airways Company, Museum of Islamic Art or any of its subsidiaries or affiliates.    </p>
 
     <h2 class="case-heading">Posters</h2>
-    <div class="case-image">
-      <img src="assets/images/projects/graphic-design/qatar-airways-x-mia/ori.png" alt="Islamic Arts Festival 2019 poster" />
-    </div>
-
     <figure class="case-image-group">
       <div class="case-image-group-row">
+        <img src="assets/images/projects/graphic-design/qatar-airways-x-mia/ori.png" alt="Islamic Arts Festival 2019 poster" />
         <img src="assets/images/projects/graphic-design/qatar-airways-x-mia/blue.png" alt="Islamic Arts Festival 2019 poster — blue" />
         <img src="assets/images/projects/graphic-design/qatar-airways-x-mia/green.png" alt="Islamic Arts Festival 2019 poster — green" />
       </div>
@@ -376,23 +359,17 @@ KUMO, Japanese for “cloud”, is a natural soap brand concept focused on susta
 
     <h2 class="case-heading">Name Badges</h2>
     <figure class="case-image-group">
-      <div class="case-image-group-row">
+      <div class="case-image-group-row case-image-group-row--framed">
+        <img src="assets/images/projects/graphic-design/qatar-airways-x-mia/ID ori.png" alt="Islamic Arts Festival staff name badge" />
         <img src="assets/images/projects/graphic-design/qatar-airways-x-mia/ID blue.png" alt="Islamic Arts Festival staff name badge — blue" />
         <img src="assets/images/projects/graphic-design/qatar-airways-x-mia/ID green.png" alt="Islamic Arts Festival staff name badge — green" />
       </div>
     </figure>
 
-    <div class="case-image">
-      <img src="assets/images/projects/graphic-design/qatar-airways-x-mia/ID ori.png" alt="Islamic Arts Festival staff name badge" />
-    </div>
-
     <h2 class="case-heading">Standees</h2>
-    <div class="case-image">
-      <img src="assets/images/projects/graphic-design/qatar-airways-x-mia/ORI-CROPPED.png" alt="Islamic Arts Festival 2019 standee" />
-    </div>
-
     <figure class="case-image-group">
       <div class="case-image-group-row">
+        <img src="assets/images/projects/graphic-design/qatar-airways-x-mia/3.png" alt="Islamic Arts Festival 2019 standee" />
         <img src="assets/images/projects/graphic-design/qatar-airways-x-mia/2.png" alt="Islamic Arts Festival 2019 standee — blue" />
         <img src="assets/images/projects/graphic-design/qatar-airways-x-mia/1.png" alt="Islamic Arts Festival 2019 standee — green" />
       </div>
@@ -406,14 +383,15 @@ KUMO, Japanese for “cloud”, is a natural soap brand concept focused on susta
 
   Kreasi: `
     <p class="case-text">
-      KREASI or 'Creations,' is an art magazine made to feature up-and-coming Malaysian artists and creators. It features full-length interviews with five different creators, each differing from one another in terms of skill and experience, accompanied by expressive photography, illustrations and art pieces. The purpose of KREASI is to bring light to the art scene of our vibrant country, Malaysia, and to inspire all artists to continue creating with good passion and vigor.
+KREASI, meaning “Creations,” is an art magazine spotlighting emerging Malaysian artists and creators. Featuring in-depth interviews, photography, illustrations and original artwork, the magazine celebrates Malaysia’s creative scene while encouraging artists to keep creating with passion.
+
     </p>
 
     <p class="case-text case-text--note">
       *cover art by Khiddir Baharudin is @kidebaharudin on instagram.
     </p>
 
-    <div class="case-image case-image--md">
+    <div class="case-image case-image--md" >
       <img src="assets/images/projects/graphic-design/kreasi/001.jpg" alt="Kreasi — a Malaysian art magazine, cover" />
     </div>
 
@@ -436,20 +414,16 @@ KUMO, Japanese for “cloud”, is a natural soap brand concept focused on susta
 
   "Yogurt Square": `
     <p class="case-text">
-      Yogurt Square is a small and friendly neighborhood business located in Lincoln Square, Chicago. For a business so fun, healthy and colorful, their current logo seemed non-professional and lacked memorability. Therefore, the Yogurt Square logo was chosen to redesign and to modernize for a visual identity and narrative course.
-    </p>
+Yogurt Square is a neighborhood frozen yogurt shop in Lincoln Square, Chicago. The rebrand focused on creating a more polished, memorable identity that better reflected its fun, colorful and health-conscious personality.    </p>
 
     <p class="case-text">
-      Since their target consumers are mostly the youth, a variety of colors and a pictorial element were incorporated to create a more illustrious and attractive design. The colors symbolize the numerous flavors and toppings they offer and a geometric typeface was chosen in accordance to the 'square' in their name. A secondary logo was also created using just one color, for their convenience, whenever necessary. The secondary color chosen was a bright green to highlight the healthy elements frozen yogurt offers. The pictorial element could also be used as a defining element whenever necessary.
-    </p>
+Designed with a younger audience in mind, the new identity uses bright colors to represent the variety of flavors and toppings, paired with a geometric typeface inspired by the “square” in its name. A flexible secondary logo and standalone graphic element were also developed for use across different applications.    </p>
 
     <p class="case-text">
-      The process for this redesign included brand research and some initial sketches which were narrowed to three different logo ideas. Two refined designs were chosen and eventually one final design, which can be seen below.
-    </p>
+The process included brand research, sketching and concept development, followed by refinement into the final identity shown below.    </p>
 
     <p class="case-text case-text--note">
-      *not affiliated, associated, authorized, endorsed by, or in any way officially connected to the Yogurt Square or any of its subsidiaries or affiliates.
-    </p>
+*not affiliated, associated, authorized, endorsed by, or in any way officially connected to the Yogurt Square or any of its subsidiaries or affiliates.    </p>
 
     <div class="case-image">
       <img src="assets/images/projects/graphic-design/yogurt-square/CUP-01.png" alt="Yogurt Square frozen yogurt cup" />
@@ -471,9 +445,7 @@ KUMO, Japanese for “cloud”, is a natural soap brand concept focused on susta
       <img src="assets/images/projects/graphic-design/yogurt-square/CARD-01.png" alt="Yogurt Square business cards" />
     </div>
 
-    <div class="case-image">
-      <img src="assets/images/projects/graphic-design/yogurt-square/WEB.gif" alt="Yogurt Square website mockup" />
-    </div>
+    
   `,
 
   "Geisel After Dark": `
