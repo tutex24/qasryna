@@ -76,8 +76,7 @@
 var caseStudies = {
   Kumo: `
     <p class="case-text">
-      KUMO, Japanese for clouds, is a 100% natural soap company produced for a packaging design course. The goal of this project was to design an all natural and organic product packaging with the integration of photography. Therefore, their box, bottle and bag are made with the finest quality hemp paper to ensure complete sustainability and zero waste goals for the future, while giving off a sense of roughness to further echo their organic and natural goal. KUMO, in relation to the name, prides themselves for the handmade soaps being lightweight, creamy and breathable with full plant-based ingredients. Hence, the packaging was designed with rough, yet delicate and organic lines to indicate the basic ingredient of their bath products. Photography and the use of color was integrated into the insides of each packaging instead, to provide an element of surprise and to symbolize the idea of a clean, minimal and simple product having the better and healthier effect, a play on the metaphor beauty is only skin-deep.
-    </p>
+KUMO, Japanese for “cloud”, is a natural soap brand concept focused on sustainability, simplicity and plant-based ingredients. Designed for a packaging course, the brand uses hemp paper, organic linework and minimal forms to reflect the brand’s handmade, biodegradable and zero-waste values.    </p>
 
     <div class="case-image case-image--sm">
       <img src="assets/images/projects/graphic-design/kumo/Logo.png" alt="Kumo logotype" />
@@ -96,12 +95,9 @@ var caseStudies = {
     </p>
 
     <h2 class="case-heading">Inspiration and Ideas</h2>
-    <div class="case-image">
-      <img src="assets/images/projects/graphic-design/kumo/Ref/IDEAS-01.png" alt="Packaging inspiration moodboard — box" />
-    </div>
-
     <figure class="case-image-group">
       <div class="case-image-group-row">
+        <img src="assets/images/projects/graphic-design/kumo/Ref/IDEAS-01.png" alt="Packaging inspiration moodboard — box" />
         <img src="assets/images/projects/graphic-design/kumo/Ref/IDEAS-02.png" alt="Packaging inspiration moodboard — bottle" />
         <img src="assets/images/projects/graphic-design/kumo/Ref/IDEAS-03.png" alt="Packaging inspiration moodboard — bag" />
       </div>
@@ -498,10 +494,9 @@ var caseStudies = {
     </div>
   `,
 
-  Traditional: `
+  Meatloaf: `
     <p class="case-text">
-      Details about the Traditional project go here.
-    </p>
+A traditional hand-drawn animation exploring fragility, resilience and the inevitable nothingness. Created on paper and pencil with a light-box and camera. Clipped together on Premiere Pro. </p>
 
     <div class="case-video">
       <video src="assets/images/projects/motion/Traditional/qk_final.mp4" controls playsinline></video>
@@ -509,8 +504,9 @@ var caseStudies = {
   `,
   "Life vs Death": `
     <p class="case-text">
-      Details about the Traditional project go here.
-    </p>
+A short pixel animation conceptualising the contrast of Life vs Death.<br>Made with Adobe Illustrator & After Effects.    </p>
+</p>
+
 
     <div class="case-video">
       <video src="assets/images/projects/motion/lifevsdeath/life_vs_death.mp4" controls playsinline></video>
@@ -519,8 +515,7 @@ var caseStudies = {
 
   "Digital 2D": `
     <p class="case-text">
-      A collection of digital illustrations and short animations.
-    </p>
+A collection of digital animations created as personal creative explorations. Made with procreate.    </p>
 
     <div class="case-gallery">
       <img src="assets/images/projects/motion/Digital-2d/TwitchIntro.GIF" alt="Animated title card — a glowing door marked ON AIR" />
@@ -537,12 +532,16 @@ var caseStudies = {
 
   "Respond.io Yearly Recaps": `
     <p class="case-text">
-      Details about the Company Yearly Recaps project go here.
-    </p>
+Yearly recap videos created for Respond.io, featured as the highlight video on the company’s YouTube channel and shared by the Sales team with prospective and existing clients to showcase key features in a clear and engaging way. Each video was fully storyboarded, illustrated and animated by Qasryna. Created using Figma, Adobe Illustrator and Adobe After Effects.</p>
 
     <h2 class="case-heading">Pitch Video 2026</h2>
     <div class="case-embed">
       <iframe src="https://www.youtube.com/embed/-5C9R07eToc?rel=0&modestbranding=1&iv_load_policy=3" title="Pitch Video 2026" allowfullscreen></iframe>
+    </div>
+
+    <h2 class="case-heading">Retargeting Ad 2025</h2>
+    <div class="case-video">
+      <video src="assets/images/projects/motion/Company Yearly Recaps/Retargeting_Ad_2025/Animation _ Retargeting Ad Final Version-web.mp4" controls playsinline></video>
     </div>
 
     <h2 class="case-heading">Pocket Demo 2024</h2>
@@ -550,16 +549,12 @@ var caseStudies = {
       <video src="assets/images/projects/motion/Company Yearly Recaps/Pocket_demo_2024/Animation _ Pocket Demo Final-web.mp4" controls playsinline></video>
     </div>
 
-    <h2 class="case-heading">Retargeting Ad 2025</h2>
-    <div class="case-video">
-      <video src="assets/images/projects/motion/Company Yearly Recaps/Retargeting_Ad_2025/Animation _ Retargeting Ad Final Version-web.mp4" controls playsinline></video>
-    </div>
+    
   `,
 
   "Auguries of Innocence": `
     <p class="case-text">
-      Details about the Auguries of Innocence project go here.
-    </p>
+A short motion visualisation of William Blake’s Auguries of Innocence poem. <br>Made with Adobe Illustrator & After Effects.</p>
 
     <div class="case-video">
       <video src="assets/images/projects/motion/Auguries of innocence/Auguries of Innocence.mp4" controls playsinline></video>
@@ -568,17 +563,19 @@ var caseStudies = {
 
   "Respond.io Platform GIFs": `
     <p class="case-text">
-      Details about the Respond.io Platform GIFs project go here.
-    </p>
+      A selection of short GIFs and Lottie animations created for Respond.io’s feature releases. These animations were integrated into the platform as feature announcements. Created using Figma, After Effects and Lottie. </p>
+
+    <p class="case-text case-text--note">
+*Featured here is a small selection from a much larger collection produced over time.    </p>
 
     <div class="case-masonry">
-      <video src="assets/images/projects/motion/respondio-platform-gifs/AI to Human.mp4" autoplay muted loop playsinline></video>
-      <video src="assets/images/projects/motion/respondio-platform-gifs/Connect Channels 03.mp4" autoplay muted loop playsinline></video>
-      <video src="assets/images/projects/motion/respondio-platform-gifs/http.mp4" autoplay muted loop playsinline></video>
-      <video src="assets/images/projects/motion/respondio-platform-gifs/Paid Call Features.mp4" autoplay muted loop playsinline></video>
-      <video src="assets/images/projects/motion/respondio-platform-gifs/WA Carousel Template.mp4" autoplay muted loop playsinline></video>
-      <video src="assets/images/projects/motion/respondio-platform-gifs/Track Customer Source.mp4" autoplay muted loop playsinline></video>
-      <img src="assets/images/projects/motion/respondio-platform-gifs/AI Agent Ads + Assignment.gif" alt="AI Agent Ads and Assignment feature animation" />
+      <video src="assets/images/projects/motion/respondio-platform-gifs/AI to Human.mp4" width="1200" height="674" autoplay muted loop playsinline></video>
+      <video src="assets/images/projects/motion/respondio-platform-gifs/Connect Channels 03.mp4" width="400" height="400" autoplay muted loop playsinline></video>
+      <video src="assets/images/projects/motion/respondio-platform-gifs/http.mp4" width="1200" height="674" autoplay muted loop playsinline></video>
+      <video src="assets/images/projects/motion/respondio-platform-gifs/Paid Call Features.mp4" width="2000" height="1000" autoplay muted loop playsinline></video>
+      <video src="assets/images/projects/motion/respondio-platform-gifs/WA Carousel Template.mp4" width="1200" height="674" autoplay muted loop playsinline></video>
+      <video src="assets/images/projects/motion/respondio-platform-gifs/Track Customer Source.mp4" width="1920" height="1080" autoplay muted loop playsinline></video>
+      <img src="assets/images/projects/motion/respondio-platform-gifs/AI Agent Ads + Assignment.gif" width="960" height="539" alt="AI Agent Ads and Assignment feature animation" />
     </div>
   `,
 };

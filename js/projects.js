@@ -106,10 +106,10 @@ var projects = [
     description: "Details about the Respond.io Platform GIFs project go here.",
   },
   {
-    name: "Traditional",
+    name: "Meatloaf",
     category: "motion",
     thumb: "assets/images/projects/motion/Traditional/trad.gif",
-    alt: "Traditional — hand-drawn animation reel",
+    alt: "Meatloaf — hand-drawn animation reel",
     description: "Details about the Traditional project go here.",
   },
   {
