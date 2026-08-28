@@ -466,6 +466,53 @@ The process included brand research, sketching and concept development, followed
     </div>
   `,
 
+  "Social & Ads Post": `
+    <p class="case-text">
+      A collection of social media posts and paid ad creatives designed for Respond.io, covering feature announcements, product updates and customer retargeting campaigns across Instagram, Facebook and LinkedIn.
+    </p>
+
+    <h2 class="case-heading">Social Posts</h2>
+    <div class="case-masonry">
+      <img src="assets/images/projects/graphic-design/Past Socials/WA Business Calling - 01 - 1080x1350.png" alt="Respond.io social post — WhatsApp Business Calling feature" />
+      <img src="assets/images/projects/graphic-design/Past Socials/AI Agent Typing Indicator - 1080x1350.png" alt="Respond.io social post — AI Agent typing indicator feature" />
+      <img src="assets/images/projects/graphic-design/Past Socials/AI Agent_ Add Tags - 1080x1350.png" alt="Respond.io social post — AI Agent add tags feature" />
+      <img src="assets/images/projects/graphic-design/Past Socials/AI Agent_ Add Tags 2 - 1080x1350.png" alt="Respond.io social post — AI Agent add tags feature, alternate version" />
+      <img src="assets/images/projects/graphic-design/Past Socials/AI Agents SDK Rearchitecture - 1080x1350.png" alt="Respond.io social post — AI Agents SDK rearchitecture announcement" />
+      <img src="assets/images/projects/graphic-design/Past Socials/Audio Transcript - 1080x1350.png" alt="Respond.io social post — audio transcript feature" />
+      <img src="assets/images/projects/graphic-design/Past Socials/Test AI Agent with Files - 2 - 1080x1350.png" alt="Respond.io social post — test AI Agent with files feature" />
+      <img src="assets/images/projects/graphic-design/Past Socials/Inbox_ Support Files in Internal Comment - 1080x1350.png" alt="Respond.io social post — support files in internal comments feature" />
+      <img src="assets/images/projects/graphic-design/Past Socials/Voice Recording Feature Release - post 2.png" alt="Respond.io social post — voice recording feature release" />
+    </div>
+
+    <h2 class="case-heading">Ads</h2>
+    <div class="case-masonry">
+      <img src="assets/images/projects/graphic-design/Past Socials/Ads/WhatsApp Calling Ads - 05 - 1080x1080.png" alt="Respond.io ad — WhatsApp Calling campaign" />
+      <img src="assets/images/projects/graphic-design/Past Socials/Ads/Calls 1.1 - 1080x1080.jpg" alt="Respond.io ad — Calls feature campaign" />
+      <img src="assets/images/projects/graphic-design/Past Socials/Ads/Thumbnail - AI Agent Experience 2.1  - 1080x1080.png" alt="Respond.io ad — AI Agent experience campaign" />
+      <img src="assets/images/projects/graphic-design/Past Socials/Ads/New VoIP Retargeting - Website Visitors 1.1  - 1080x1080.png" alt="Respond.io ad — VoIP retargeting campaign for website visitors" />
+      <img src="assets/images/projects/graphic-design/Past Socials/Ads/New VoIP Retargeting - Website Visitors 1.2  - 1080x1080.png" alt="Respond.io ad — VoIP retargeting campaign for website visitors, alternate version" />
+      <img src="assets/images/projects/graphic-design/Past Socials/Ads/Thumbnail - New VoIP Retargeting - Churned 1.2  - 1080x1080.png" alt="Respond.io ad — VoIP retargeting campaign for churned users" />
+      <img src="assets/images/projects/graphic-design/Past Socials/Ads/VoIP Retargeting - Leads SALs 1.2  - 1080x1080.jpg" alt="Respond.io ad — VoIP retargeting campaign for leads and SALs" />
+      <img src="assets/images/projects/graphic-design/Past Socials/Ads/WhatsApp Retargeting Churn 2.1 - 1080x1080.png" alt="Respond.io ad — WhatsApp retargeting campaign for churned users" />
+    </div>
+  `,
+
+  "Blog Images": `
+    <p class="case-text">
+      A set of blog cover images designed for Respond.io's blog and help center articles, covering feature explainers like WhatsApp Cloud API, Telegram Broadcast and AI-powered messaging tools.
+    </p>
+
+    <div class="case-masonry">
+      <img src="assets/images/projects/graphic-design/Blog-Images/WhatsApp Cloud API Cover Image.png" alt="Respond.io blog cover — WhatsApp Cloud API" />
+      <img src="assets/images/projects/graphic-design/Blog-Images/Telegram Broadcast_Blog Cover.png" alt="Respond.io blog cover — Telegram Broadcast" />
+      <img src="assets/images/projects/graphic-design/Blog-Images/Telegram Auto Reply Cover Image.png" alt="Respond.io blog cover — Telegram Auto Reply" />
+      <img src="assets/images/projects/graphic-design/Blog-Images/Messenger Link Cover Image.png" alt="Respond.io blog cover — Messenger Link" />
+      <img src="assets/images/projects/graphic-design/Blog-Images/FB Manager ID Cover Image.png" alt="Respond.io blog cover — Facebook Manager ID" />
+      <img src="assets/images/projects/graphic-design/Blog-Images/IMU Cover Image.png" alt="Respond.io blog cover — IMU" />
+      <img src="assets/images/projects/graphic-design/Blog-Images/Thumbnail - Viber Sales Image.png" alt="Respond.io blog cover — Viber Sales" />
+    </div>
+  `,
+
   Meatloaf: `
     <p class="case-text">
 A traditional hand-drawn animation exploring fragility, resilience and the inevitable nothingness. Created on paper and pencil with a light-box and camera. Clipped together on Premiere Pro. </p>

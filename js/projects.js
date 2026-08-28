@@ -32,6 +32,22 @@
 
 var projects = [
   {
+    name: "Social & Ads Post",
+    category: "graphic-design",
+    thumb:
+      "assets/images/projects/graphic-design/Past Socials/WA Business Calling - 01 - 1080x1350.png",
+    alt: "Social & Ad Post — Respond.io social media and paid ad creatives",
+    description: "Details about the Social & Ad Post project go here.",
+  },
+  {
+    name: "Blog Images",
+    category: "graphic-design",
+    thumb:
+      "assets/images/projects/graphic-design/Blog-Images/WhatsApp Cloud API Cover Image.png",
+    alt: "Blog Images — Respond.io blog cover illustrations",
+    description: "Details about the Blog Images project go here.",
+  },
+  {
     name: "Kumo",
     category: "graphic-design",
     thumb: "assets/images/projects/graphic-design/kumo/Kumo_Box.jpg",
@@ -83,6 +99,7 @@ var projects = [
     alt: "Geisel After Dark — event poster illustration",
     description: "Details about the Geisel After Dark project go here.",
   },
+
   // {
   //   name: "Yogurt Square",
   //   category: "graphic-design",
