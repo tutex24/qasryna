@@ -466,10 +466,9 @@ The process included brand research, sketching and concept development, followed
     </div>
   `,
 
-  "Social & Ads Post": `
+  "Social & Digital Ads": `
     <p class="case-text">
-      A collection of social media posts and paid ad creatives designed for Respond.io, covering feature announcements, product updates and customer retargeting campaigns across Instagram, Facebook and LinkedIn.
-    </p>
+A selection of social media posts and digital ads created for respond.io, designed in line with the brand’s current visual identity. Made with Figma.    </p>
 
     <h2 class="case-heading">Social Posts</h2>
     <div class="case-masonry">
@@ -499,8 +498,7 @@ The process included brand research, sketching and concept development, followed
 
   "Blog Images": `
     <p class="case-text">
-      A set of blog cover images designed for Respond.io's blog and help center articles, covering feature explainers like WhatsApp Cloud API, Telegram Broadcast and AI-powered messaging tools.
-    </p>
+A selection of blog cover illustrations created in line with respond.io’s previous visual identity, featuring a more colorful and illustrative visual style. Made with Adobe Illustrator.    </p>
 
     <div class="case-masonry">
       <img src="assets/images/projects/graphic-design/Blog-Images/WhatsApp Cloud API Cover Image.png" alt="Respond.io blog cover — WhatsApp Cloud API" />
@@ -510,6 +508,16 @@ The process included brand research, sketching and concept development, followed
       <img src="assets/images/projects/graphic-design/Blog-Images/FB Manager ID Cover Image.png" alt="Respond.io blog cover — Facebook Manager ID" />
       <img src="assets/images/projects/graphic-design/Blog-Images/IMU Cover Image.png" alt="Respond.io blog cover — IMU" />
       <img src="assets/images/projects/graphic-design/Blog-Images/Thumbnail - Viber Sales Image.png" alt="Respond.io blog cover — Viber Sales" />
+      <img src="assets/images/projects/graphic-design/Blog-Images/Concepts _ WhatsApp Automation Cover Image.png" alt="Respond.io blog cover — WhatsApp Automation" />
+      <img src="assets/images/projects/graphic-design/Blog-Images/Concepts _ Respond.io Alternatives Cover.png" alt="Respond.io blog cover — Respond.io Alternatives" />
+      <img src="assets/images/projects/graphic-design/Blog-Images/Concepts _ Messagebird Alternative Cover.png" alt="Respond.io blog cover — Messagebird Alternative" />
+      <img src="assets/images/projects/graphic-design/Blog-Images/Concepts _ WhatsApp for Healthcare Cover.png" alt="Respond.io blog cover — WhatsApp for Healthcare" />
+      <img src="assets/images/projects/graphic-design/Blog-Images/Concepts _ WhatsApp Partner 2.0.png" alt="Respond.io blog cover — WhatsApp Partner 2.0" />
+      <img src="assets/images/projects/graphic-design/Blog-Images/Concepts _ Customer Satisfaction Survey.png" alt="Respond.io blog cover — Customer Satisfaction Survey" />
+      <img src="assets/images/projects/graphic-design/Blog-Images/Practical Guide _ WhatsApp CRM Cover.jpg" alt="Respond.io blog cover — WhatsApp CRM" />
+      <img src="assets/images/projects/graphic-design/Blog-Images/How To _ Verify Instagram Business Account Cover Image.png" alt="Respond.io blog cover — Verify Instagram Business Account" />
+      <img src="assets/images/projects/graphic-design/Blog-Images/How To _ WhatsApp Good Friday Promotion Cover.png" alt="Respond.io blog cover — WhatsApp Good Friday Promotion" />
+      <img src="assets/images/projects/graphic-design/Blog-Images/Article _ ROI of Messaging Campaigns Cover.png" alt="Respond.io blog cover — ROI of Messaging Campaigns" />
     </div>
   `,
 

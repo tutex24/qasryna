@@ -32,10 +32,10 @@
 
 var projects = [
   {
-    name: "Social & Ads Post",
+    name: "Social & Digital Ads",
     category: "graphic-design",
     thumb:
-      "assets/images/projects/graphic-design/Past Socials/WA Business Calling - 01 - 1080x1350.png",
+      "assets/images/projects/graphic-design/Past Socials/Ads/New VoIP Retargeting - Website Visitors 1.2  - 1080x1080.png",
     alt: "Social & Ad Post — Respond.io social media and paid ad creatives",
     description: "Details about the Social & Ad Post project go here.",
   },
@@ -43,7 +43,7 @@ var projects = [
     name: "Blog Images",
     category: "graphic-design",
     thumb:
-      "assets/images/projects/graphic-design/Blog-Images/WhatsApp Cloud API Cover Image.png",
+      "assets/images/projects/graphic-design/Blog-Images/Thumbnail - Viber Sales Image.png",
     alt: "Blog Images — Respond.io blog cover illustrations",
     description: "Details about the Blog Images project go here.",
   },
